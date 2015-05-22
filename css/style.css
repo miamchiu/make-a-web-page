@@ -1,0 +1,51 @@
+
+body {
+	font-family: ariel;
+	max-width: 2000px;
+  margin: 5px 5px auto;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+	font-size: 20px;
+  border-style: solid;
+  border-color: black;
+}          
+
+.lesson-title{
+  background-color: #003399;
+  color: white;
+  padding: 12px;
+
+  
+}
+.lesson{
+
+}
+
+.subject {
+	background-color: #FFCCCC;
+	color: black;
+  padding: 10px;
+
+}
+
+.example{
+  color:#0066CC;
+}
+
+h2 {
+	text-align:center;
+}
+
+h3 { 
+  text-align:center;
+}
+
+.content {
+  padding: 20px;
+
+}
+
+.table{
+ 
+  text-align:center}

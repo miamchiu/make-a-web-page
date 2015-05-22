@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>Mia_Webpage</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mia's Notes</title>
+</head>
+
+<body>
+
+<div class="lesson">
+  <div><h2 class="lesson-title">1. The basics of Web and HTML</h2></div>
+  <div><h3 class="subject">How the Web Works</h3></div>
+  <div class="content">The web is a bunch of computers that communicate with each other. When a person goes to a web
+  page like www.google.com, their computer sends
+  a <em>HTTP Request</em> to a <em>server</em>. The
+  server finds the appropriate HTML document and sends
+  it back to the user's computer where a <em>web browser</em>
+  interprets the page and displays it on the user's screen.
+  <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">This video</a>does a good job of explaining.
+  </div>
+  
+  <div><h3 class="subject">HTML</h3></div>
+  <div class="content">HTML stands for <em>Hypertext Markup Language.</em> HTML documents form the majority of the
+  content on the web. HTML documents contain <em>text content</em> which describes "what you see"
+  and <em>markup</em> which describes "how it looks".
+  <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340"> This video</a> gives a good overview.
+  </div>
+  
+  <div><h3 class="subject">Tags and Elements</h3></div>
+  <div class="content">HTML documents are made of HTML <b>elements</b>. When writing HTML, we tell browsers the type of each element by using HTML <b>tags</b>.
+  <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">This video</a>explains the distinction well.
+  </div>
+    
+  <div><h3 class="subject">Inline vs Block Elements</h3></div>
+  <div class="content"> HTML elements are either <b>inline</b> or <b>block</b>. Block elements form an "invisible box" around the content inside of them.
+  </div>
+</div>
+
+<div class="lesson">  
+  <div><h2 class="lesson-title">2. Structural HTML documents</h2></div>
+  <div><h3 class="subject">HTML components</h3></div>
+  <div class="content">Text: What you see
+      <br>Mark up: What it looks like
+      <br>References to other documents: Images, links.
+  </div>
+  
+  <div><h3 class="subject"> A general basic structure of a webpage</h3></div>
+    <div class="content">
+     <div class="table">
+     &lt;!DOCTYPE html&gt;
+     <br>&lt;html&gt;
+     <br>&lt;head&gt;
+     <br>&lt;title&gt;title!&lttitle&gt;
+     <br>css javascript
+     <br>&lt;head/&gt;
+     <br>&lt;body&gt;
+     <br>contents
+     <br>&lt;body/&gt;
+     <br>&lt;/html&gt;
+     </div>
+   </div>
+  </div>
+ 
+  <div><h3 class="subject">Links and Images</h3></div>
+  <div class="content">To insert a link, &lt;a href="url" or "<em>folder/imagefile</em> &gt; text &lt;/a&gt;
+      <br>To insert a image, &lt;img src="url" alt="text"&gt; <em>alt</em> is to show an alternative text when the link is not available.
+  </div>
+    
+  <div><h3 class="subject">HTML Attributes</h3></div>
+  <div class="content">&lt;TAG ATTR="value"&gt;content&lt;/TAG&gt;</div>
+  
+  <div><h3 class="subject">Boxify design</h3></div>
+  <div class="content">&lt;div&gt;is to define boxes, within each box, you can assign "class" as a label to the box.
+  <br>It will look like &lt;div class="Title"&gt&lt;/div&gt
+  </div>  
+  
+  <div><h3 class="subject">Div and Span</h3></div>
+  <div class="content">Div: block-level element that takes up entire width of screen.
+  <br>Span will not push the rest of the element to next line. It will not change the layout of the document.
+  </div>
+    
+  <div><h3 class="subject">Id and Class</h3></div>
+  <div class="content">Ids are used to uniquely identify an element in the entire web page.
+  <br>Classes are used to style a group of elements similarly.
+  
+  
+</div>
+    
+<div class="lesson">
+  <div><h2 class="lesson-title">3. Adding CSS style and HTML structure</h2></div>
+  <div><h3 class="subject">To add styles to a document</h3></div>
+  <div class="content">
+      1. Adding style information into head tag.
+      <div class="example">
+      <p>&lt;head&gt;
+        <br>&nbsp&nbsp&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+        <br>&lt;head/&gt;
+      </div>
+  
+      <p>2. Apply style to all of a certain page</p>
+      <div class="example">  
+      p (tag) {    }
+      </div>
+      
+      <p>3. Apply to an element by <em>class</em></p>
+      <div class="example">
+        . description { color (attribute) : red (value)  }
+      </div>
+  </div>
+  
+  <div><h3 class="subject">Box sizing and positioning</h3></div>
+  <div class="content">Tip 1: Set <em>Box-sizing</em> :(to) <em>border box</em> for every element
+  <br>Tip2: <em>display:flex;</em> will override this behavior and let divs appear next to each other.
+  </div>
+  
+  <div><h3 class="subject">Code, test, refine</h3></div>
+  <div class="content">1. Look for natural boxes
+  <br>2. Look for repeated styles and symentic elements
+  <br>3. Write code; Apply style (from Big to small); Fix things
+  </div>
+
+  <div><h3 class="subject">Avoid Repetition</h3></div>
+  <div class="content"> Give the same style to similar elements, you can reap the benefits of this when you quickly and easily modify all of them at once just by changing a single line of CSS.</div> 
+  
+</div>
+
+<div>
+  <h3 class="subject">Resources</h3>
+  <div class="content"><a href="http://udacity.github.io/frontend-nanodegree-styleguide/">CSS style guide</a>
+  <br><a href="https://css-tricks.com/how-css-selectors-work/">How CSS works</a>
+  <br><a href="http://www.w3.org/TR/CSS21/sample.html">Default style sheet for HTML 4</a>
+    <br><a href="http://assignments.udacity-extras.appspot.com/courses/html-css/index.html">Sample pages and assets</a>
+  </div>
+</div>
+  
+</body>
+
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>
